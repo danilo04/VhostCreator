@@ -1,0 +1,3 @@
+#!/bin/bash
+DIRECTORY=$(cd `dirname $0` && cd ../ && pwd)
+sudo php $DIRECTORY/src/main.php
