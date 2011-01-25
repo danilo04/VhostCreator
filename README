@@ -1,0 +1,27 @@
+Virtual Host Creator
+===================
+
+Introduction
+------------
+
+The people that work with apache always have to create new virtual hosts for their projects. 
+This project helps througt cli to create new virtual hosts and enable them.
+
+Configuration
+------------
+This project was tested in a ubuntu-linux machine, so it uses the ubuntu/debian apache folder layout.
+If you have another layout you just have to change the const in the class "src/vhostcreator.class.php".
+Is easier to create an alias in your .bashrc file. For this just add this line to your .bashrc file:
+
+	alias vhostcreator='/path/to/VhostCreator/bin/vhostcreator'
+
+Then just run:
+	 source ~/.bashrc
+
+
+Usage
+-----
+Run:
+	xhostcreator
+and it will ask your for the your email administrator, servername and documentroot of the virtual host.
+
